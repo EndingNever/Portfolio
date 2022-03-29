@@ -1,0 +1,20 @@
+.project-container{
+    border: 2px solid gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.projects{
+    border: 2px solid red;
+    height: 100%;
+    width: 40%;
+}
+
+.projects iframe{
+    border: 2px solid green;
+    height: 100%;
+    width: 100%;
+}

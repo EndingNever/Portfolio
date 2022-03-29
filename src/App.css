@@ -15,11 +15,23 @@
   width: 100vw;
 }
 
-.about-component-container {
-  border: 2px solid red;
-  margin-left: 20px;
-  margin-top: 30px;
-  height: 600px;
-  width: 500px;
+.about-row {
+  /* border: 1px solid purple; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  width: 100vw;
 }
 
+.about-component-container {
+  border: 1px solid red;
+  height: 200px;
+  width: 90%;
+}
+
+.portfolio-row{
+  /* border: 2px solid green; */
+  height: 500px;
+  width: 100vw;
+}

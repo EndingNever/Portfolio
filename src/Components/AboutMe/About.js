@@ -4,7 +4,9 @@ import './About.css'
 export default function About() {
   return (
     <div className='about-container'>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo magni possimus accusantium temporibus ullam sed suscipit? Repellat blanditiis eum vitae?
+      <p>Hello!</p>
+      <p>My name is Fabian Villaseñor, a Front End Web Developer using React, Javascript, Angular, and Node.js.</p>
+      
     </div>
   )
 }

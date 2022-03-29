@@ -4,7 +4,7 @@ import './Routes/routes.js'
 import { Link } from 'react-router-dom'
 import Circle from './Components/Circle/Circle';
 import About from './Components/AboutMe/About';
-import Project from './Components/Project/Project';
+import Projects from './Components/Projects/Projects';
 import Navbar from './Components/Navbar/Navbar';
 
 function App() {
@@ -13,10 +13,13 @@ function App() {
       <div className="navbar-component-container">
         <Navbar />
       </div>
-      <div className="middle-row">
+      <div className="about-row">
         <div className="about-component-container">
           <About />
         </div>
+      </div>
+      <div className="portfolio-row">
+        <Projects />
       </div>
     </div>
   );
