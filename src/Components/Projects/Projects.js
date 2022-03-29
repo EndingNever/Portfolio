@@ -6,7 +6,7 @@ export default function Project() {
     <div className='project-container'>
         <div className="projects"><iframe src="https://devinfonseca.com/"></iframe></div>
         <div className="projects"><iframe src="https://endingnever.github.io/AngularVehicleShowcase/"></iframe></div>
-        <div className="projects"><iframe src="https://devinfonseca.com/"></iframe></div>
+        <div className="projects">Project</div>
     </div>
   )
 }

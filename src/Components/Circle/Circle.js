@@ -6,7 +6,7 @@ export default function Circle() {
         <div className='circle-container'>
             <div className="circle"></div>
             <div className="name">
-                <h1>Fabian Villase&#xF1;or</h1>
+                <h1>Fabian Villaseñor</h1>
             </div>
         </div>
     )
