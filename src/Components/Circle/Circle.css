@@ -1,0 +1,30 @@
+.circle-container{
+    /* background-image: url(/public/images/unsplash.jpg);
+    background-position: 50% 28%; */
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(136, 136, 255, 0.657);
+    /* border: 2px solid red; */
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+}
+
+.circle{
+    background-color: rgba(0, 0, 255, 0.657);
+    border-radius: 50%;
+    position: relative;
+    right: -10%;
+    top: -10%;
+    height: 425px;
+    width: 425px;
+    z-index: 1;
+}
+
+.name{
+    height: 100%;
+    width: 20%;
+    margin-right: 20px;
+    /* border: 1px solid red; */
+    /* z-index: 1; */
+}
