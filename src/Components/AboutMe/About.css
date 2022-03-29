@@ -1,6 +1,17 @@
+.information-container{
+    /* border: 2px solid red; */
+    height: 100%;
+    display: flex;
+}
+
 .about-container{
-    /* border: 2px solid purple;
-    height:100px;
-    width: 100px; */
+    border: 2px solid green;
+    width: 50%;
     text-align: center;
+}
+
+.below-container{
+    border: 2px solid red;
+    height: 100%;
+    width: 50%;
 }
