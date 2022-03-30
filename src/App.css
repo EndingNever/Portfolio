@@ -22,7 +22,7 @@ body{
 }
 
 .about-row {
-  background-color: purple;
+  background-color: rgba(128, 0, 128, 0.6);
   /* border: 1px solid purple; */
   display: flex;
   align-items: center;
