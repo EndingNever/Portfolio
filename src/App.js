@@ -9,8 +9,7 @@ import Navbar from './Components/Navbar/Navbar';
 
 function App() {
   return (
-    <div className="App" style={{ cursor: 'url(images/Hello_Kitty_Cursor.png),auto' }}
-    >
+    <div className="App" style={{ cursor: 'url(images/Hello_Kitty_Cursor.png),auto' }}>
       <div className="navbar-component-container">
         <Navbar />
       </div>
