@@ -9,7 +9,7 @@
     display: flex;
     justify-content: space-between;
     background-color: rgba(136, 136, 255, 0.657);
-    border: 2px solid red;
+    /* border: 2px solid red; */
     overflow: hidden;
     height: 100%;
     width: 100%;
@@ -27,7 +27,7 @@
 }
 
 .name {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     position: relative;
     right: 50%;
     display: flex;

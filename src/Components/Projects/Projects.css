@@ -1,16 +1,20 @@
 .project-container{
-    border: 2px solid gray;
-    display: flex;
+    padding: 0px;
+    margin: 0px;
+    height: 200px;
+    width: 100%;
+    /* border: 2px solid gray; */
+    /* display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
+    justify-content: center; */
+    /* height: 100%; */
+    /* width: 100%; */
 }
 .projects{
     border: 2px solid red;
-    height: 100%;
-    width: 40%;
+    /* height: 100%; */
+    width: 80%;
 }
 
 .projects iframe{
