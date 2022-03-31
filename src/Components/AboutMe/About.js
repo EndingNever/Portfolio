@@ -13,8 +13,8 @@ export default function About() {
       </div>
       <div className="about-icons">
         <div className="icon"><img src={process.env.PUBLIC_URL + "/images/html5.svg"} alt="" /></div>
-        <div className="icon"><img src={process.env.PUBLIC_URL + "/images/css3.svg"} alt="" /></div>
         <div className="icon"><img src={process.env.PUBLIC_URL + "/images/react-icon.png"} alt="" /></div>
+        <div className="icon"><img src={process.env.PUBLIC_URL + "/images/css3.svg"} alt="" /></div>
       </div>
     </div>
   )
