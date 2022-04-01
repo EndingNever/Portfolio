@@ -4,7 +4,7 @@ import './ProjectCard.css'
 
 export default function ProjectCard(props) {
     const projectData = props.projectData;
-    console.log(projectData)
+    
     return (
         <div className='project'>
             <div className="project-header">
