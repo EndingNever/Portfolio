@@ -3,11 +3,23 @@ import ProjectCard from '../Project-card/ProjectCard'
 import './Projects.css'
 
 export default function Project() {
+
+  const projectData=[
+    {
+      image: "/images/Screenshot-dev.png",
+      information:`Website built for Data Analyst, displaying their own projects and resume. Built in Angular, the website is a single page application using conditional rendering in order to display the current route.`,
+    },
+    {
+
+    },
+  ]
+  
+  
   return (
     <div className='portfolio-container'>
       <h1>Portfolio</h1>
       <div className="portfolio-project">
-        <ProjectCard />
+        <ProjectCard projectData={projectData}/>
         {/* <h2>Data Analyst Website</h2>
         <div className="project-image"></div> */}
       </div>

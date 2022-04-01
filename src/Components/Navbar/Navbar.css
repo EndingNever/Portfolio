@@ -69,9 +69,11 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .navbar-items{
+    
     background-color: #F9F871;
     border-radius: 20px;
     display: flex;

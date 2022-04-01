@@ -16,19 +16,25 @@
 .project-card-image {
   /* border: 2px solid red; */
   background-size: contain;
-  background-position: center;
+  /* background-position: center;
   background-repeat: no-repeat;
-  background-image: url("/public/images/Screenshot-dev.png");
+  background-image: url("/public/images/Screenshot-dev.png"); */
   height: 90%;
-  width: 37%;
+  width: 600px;
+}
+
+.project-card-image img{
+  /* object-fit: contain; */
+  height: 100%;
+  width: 100%;
 }
 
 .project-card-text {
-  background-color: inherit;
+  background-color: rgb(0, 149, 255);
   border: 1px solid rgba(0, 149, 255, 0.891);
   padding: 20px;
   /* background-color: rgba(128, 0, 128, 0.697); */
   margin-left: -20px;
-  height: 70%;
-  width: 63%;
+  height: 50%;
+  width: 50%;
 }

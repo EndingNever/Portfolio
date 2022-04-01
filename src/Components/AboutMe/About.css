@@ -7,7 +7,7 @@
     font-family: "Michroma", sans-serif;
     font-weight: 700;
     height: 100%;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .about-container{
@@ -18,12 +18,28 @@
     height: 60%;
     width: 50%;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     margin-bottom: 12px;
 }
 
+.floating { 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    /* margin-left: 30px; */
+    margin-top: 5px;
+    z-index: 0;
+}
+ 
+@keyframes floating {
+    0% { transform: translate(0,  0px); z-index: 1;}
+    50%  { transform: translate(0, 15px); z-index: 1;}
+    100%   { transform: translate(0, -0px); z-index: 1;}   
+}
+
 .about-icons{
-    border: 2px solid gray;
+    /* border: 2px solid gray; */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
