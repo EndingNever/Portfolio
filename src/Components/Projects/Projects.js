@@ -10,7 +10,8 @@ export default function Project() {
       information:`Website built for Data Analyst, displaying their own projects and resume. Built in Angular, the website is a single page application using conditional rendering in order to display the current route.`,
     },
     {
-
+      image:"/images/html.jpg",
+      information: "TEst html jpg"
     },
   ]
   
