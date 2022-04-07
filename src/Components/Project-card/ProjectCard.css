@@ -1,5 +1,6 @@
 .project {
   /* background-color: rgba(255, 0, 0, 0.206); */
+  border: 2px solid red;
   height: 100%;
 }
 .project-header {
@@ -38,4 +39,8 @@
   margin-left: -50px;
   height: 50%;
   width: 50%;
+}
+
+.img-project-2{
+  border: 2px solid purple;
 }
