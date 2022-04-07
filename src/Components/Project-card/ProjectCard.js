@@ -11,10 +11,10 @@ export default function ProjectCard(props) {
             projectData.map((project) => (
                 <div className='project'>
                     <div className="project-header">
-                        <h2 key={project.id}>{project.title}</h2>
+                        <h2 key={project.id}><u>{project.title}</u></h2>
                     </div>
                     <div className="project-card-container">
-                        <div className="project-card-image">
+                        <div className={`project-card-image project-card-image-${project.id}`}>
                             <img className={`img-project-${project.id}`} src={process.env.PUBLIC_URL + project.image} alt="" />
                         </div>
                         <div className={`project-card-text project-card-text-${project.id}`}>

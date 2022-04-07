@@ -1,49 +1,78 @@
 .project {
   /* background-color: rgba(255, 0, 0, 0.206); */
   border: 2px solid red;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
   height: 100%;
+  margin-bottom: 20px;
 }
 .project-header {
-  height: auto;
+  /* background-color: green; */
+  /* margin-bottom: auto; */
+  margin-top: 5px;
+  /* padding:4px; */
 }
+
 .project-card-container {
   /* background-color: green; */
+  justify-self: center;
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 94%;
+  justify-content: center;
+  margin-bottom: auto;
+  margin-top: auto;
+  /* height: 94%; */
   /* border: 2px solid red; */
+}
+
+.project-card-container-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .project-card-image {
   /* border: 2px solid red; */
-  /* background-size: contain; */
-  /* background-position: center;
-  background-repeat: no-repeat;
-  background-image: url("/public/images/Screenshot-dev.png"); */
   height: 90%;
   width: 600px;
+  z-index: 1;
 }
 
-.project-card-image img{
+.project-card-image-2 {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.project-card-image img {
+  box-shadow: 12px 16px 12px rgba(0, 0, 0, 0.184);
+  /* border: 2px solid purple; */
+  height: auto;
   object-fit: contain;
-  height: 100%;
   width: 100%;
 }
 
 .project-card-text {
-  background-color: rgb(0, 149, 255);
-  box-shadow: 8px 8px 8px rgba(72, 72, 72, 0.281);
-  border: 1px solid rgba(0, 149, 255, 0.891);
+  background-color: #ffb69d;
+  /* box-shadow: 8px 8px 8px rgba(72, 72, 72, 0.281); */
+  margin-left: 8px;
   padding: 20px;
   /* background-color: rgba(128, 0, 128, 0.697); */
-  margin-left: -50px;
+  /* margin-left: -50px; */
+  height: 50%;
+  width: 40%;
+}
+
+.img-project-2 {
+  /* border: 2px solid red; */
   height: 50%;
   width: 50%;
 }
 
-.project-card-text-2{
-  margin-left: -20px;
-  border: 2px solid red;
+.project-card-text-2 {
+  /* margin-left: -20px; */
+  /* border: 2px solid red; */
   height: 40%;
 }
